@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SUCCESS</title>
+        {% load staticfiles %}
+        <link rel="stylesheet" href="{% static 'login_and_registration_app/css/my_style_sheet.css' %}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>Success! Welcome, {{request.session.first_name}}!!</h1>
+            </div>
+            <div id="maincontent">
+                <p id="success_message">Successfully registered (or logged in)!</p>
+                <a href="/logout">Logout</a>          
+            </div>
+        </div>
+    </body>
+</html>

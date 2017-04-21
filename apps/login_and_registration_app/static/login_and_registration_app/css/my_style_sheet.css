@@ -1,0 +1,31 @@
+body{
+    padding: 100px 200px 200px 200px;
+    background-color: #173e43;
+}
+
+h1{
+    text-align: center
+}
+
+#container{
+    background-color: #3fb0ac;
+    padding:50px;
+    border-radius: 100px;
+}
+
+#header{
+    background-color: #fae596;
+    padding:25px;
+    border-radius: 100px;
+}
+
+#maincontent{
+    background-color: #dddfd4;
+    margin-top: 20px;
+    padding:35px;
+    border-radius: 100px;
+}
+
+#success_message{
+    text-align: center;
+}
